@@ -1,7 +1,300 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="About Vishnu nanda kumar">
+    <meta name="author" content="Vishnu Nanda Kumar">
+
+    <title>Home || @visnkmr</title>
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+   
+	
+	<style>
+	/* Paste this css to your style sheet file or under head tag */
+	/* This only works with JavaScript, 
+	if it's not present, don't show loader */
+	.no-js #loader { display: none;  }
+	.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+	.se-pre-con {
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: 9999;
+		background: url(images/loader-64x/Preloader_7.gif) center no-repeat #fff;
+	}
+	</style>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+	<script>
+		$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+		});
+	</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+   
+   	   <div class="se-pre-con"></div>
+	   
+	   
+	   
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">About me</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#portfolio">My Recent Works</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#contact">Contact me</a>
+                    </li>
+					<li class="page-scroll">
+                        <a href="#blog" data-toggle="modal">My blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+				   <img class="img-rounded" src="https://lh5.googleusercontent.com/-z5TfbkqeD4c/AAAAAAAAAAI/AAAAAAAABUY/ZpiSTxRzIkk/s120-c/photo.jpg" alt="">
+                    <div class="intro-text">
+                        <span class="name">Vishnu Nanda Kumar</span>
+						<hr class="star-primary">
+                        <span class="skills"><strong><h4><u>Qualification </u></h4></strong> Currently persuing B-tech in Computer Science & Engineering at Model Engineering College, Thrikkakara.<br><strong><h4><u>Working at</u></h4></strong><a href="#portfolioModal2" data-toggle="modal"> Foxbrain Creative Kernel</a><br><strong><h4><u>Knows</u></h4></strong> HTML, CSS, Bootstrap, Android Developement, User Experience Designing and Blogging. </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+	
+	
+    <!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Recent Works</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="caption">
+                            <div class="caption-content">
+                                <i class="fa fa-search-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="https://lh6.googleusercontent.com/--ovBOG9UsGU/VLIzpiU12gI/AAAAAAAAADo/OejXCNNW5Qw/s630-fcrop64=1,00000cccfffef332/f2556773-4e1a-4db9-b051-f833fe1c27ef" class="img-responsive" alt="">
+                    </a>
+                </div>
+			</div>
+        </div>
+    </section>
+	
+
+	
+		<!-- Contact Section -->
+		<section id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 text-center">
+						<h2 >Contact Me</h2>
+						<hr class="star-contact">
+					</div>
+				</div>
+				<div class="row">
+				   <h3 class="text-center">Email</h3>
+					<p class="text-center">visnkmr@gmail.com</p>
+				   <h3 class="text-center">Mobile Number</h3>
+					   <p class="text-center">+919446217120</p>
+				   <h3 class="text-center">I am always active on</h3>
+					   <p class="text-center">Facebook, Twitter, Whatsapp, Telegram</p>
+									   
+				</div>
+			</div>
+		</section>
+
+	   <!-- Blog Section -->
+			   <section class ="success" id="blog">
+				   <div class="container">
+					   <div class="row">
+						   <div class="col-lg-12 text-center">
+							   <h2 >Blog posts</h2>
+							   <hr class="star-light">
+						   </div>
+					   </div>
+					   <div class="row">
+						  <h3 class="text-center">Whatsapp on desktop any good!</h3>
+						   <p>Not nearly as good as telegram is..!</p>
+					   	  <br><br><h3 class="text-right"><a href="http://www.visnkmr.blogspot.in" data-toggle="modal">Read more....</a></h3>
+					   </div>
+				   </div>
+			   </section>
+
+   
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4-center">
+                        <h3>Connect with me on:</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+           </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h2>AppChoose</h2>
+                            <hr class="star-contact">
+                            <img src="https://lh6.googleusercontent.com/--ovBOG9UsGU/VLIzpiU12gI/AAAAAAAAADo/OejXCNNW5Qw/s630-fcrop64=1,00000cccfffef332/f2556773-4e1a-4db9-b051-f833fe1c27ef" class="img-responsive img-centered" alt="">
+                            <p>It was a self initiative, it's a blog that reviews apps, "Apps that matter", not all the junk that gets listed in play store. You can visit <a href="http://www.appchoose.blogspot.in">AppChoose</a>.</p>
+                            <ul class="list-inline item-details">
+                                <li>Service:
+                                    <strong>Web Development</strong>
+                                </li>
+                            </ul>
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+	   <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+		   <div class="modal-content">
+			   <div class="close-modal" data-dismiss="modal">
+				   <div class="lr">
+					   <div class="rl">
+					   </div>
+				   </div>
+			   </div>
+			   <div class="container">
+				   <div class="row">
+					   <div class="col-lg-8 col-lg-offset-2">
+						   <div class="modal-body">
+							   <h2>Foxbrain Creative Kernel</h2>
+							   <hr class="star-contact">
+							   <img src="https://scontent-atl.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/10612787_597258950411154_5892476000923327899_n.jpg?oh=6f0b498eedbec6e00e3310dfdeeb5dbf&oe=554A47D2" class="img-responsive img-centered" alt="">
+							   <p>Foxbrain is a digital innovator. We here follow the ideology of "Make.Happen".<br> We build the digital world for our clients, thereby helping them gain exposure and ultimately increasing their number of clients.<br>  You can find us at <a href="http://www.foxbrain.in">Foxbrain</a>.</p>
+							   <ul class="list-inline item-details">
+								   <li>Services offered by us:
+									   <strong>Interactive Website Development, Android App Development and much more...!</strong>
+								   </li>
+							   </ul>
+							   <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+						   </div>
+					   </div>
+				   </div>
+			   </div>
+		   </div>
+	   </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+
 </body>
+
 </html>
