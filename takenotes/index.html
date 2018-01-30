@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+
+
+    <script type="text/javascript" src="js/common.js"></script>
+    <script type="text/javascript" src="js/localStorage.js"></script>   
+    <title>Take Notes</title>
+    <style>
+            .top-buffer { margin-top:20px; }
+            .fill {
+            height: 75%;
+            }
+            body{
+              background: black;
+            }
+            .text{
+              color:white;
+            }
+            textarea{
+              background-color: black;
+            }
+    </style>
+</head>
+<body>
+    <div id="textAreaCont" class="form-group col-12 top-buffer">
+        <div class="row text-center">
+                <div class="col-sm-12 col-md-3 text">Last Saved: <span id="changeTime">0</span> </div>
+                <div class="col-sm-12 col-md-3 text">Lines: <span id="linecount">0</span> </div>
+                <div class="col-sm-12 col-md-3 text">Characters: <span id="characterCount">0</span> </div>
+                <div class="col-sm-12 col-md-3 text">Word Count: <span id="wordCount">0</span> </div>
+    </div>
+        <textarea id="textArea" style="background-color:black; color:white;" class="form-control top-buffer text fill" placeholder="Write your notes"></textarea>
+        <div class="row text-center">
+                <!-- <div class="col-sm-12 col-md-4 top-buffer"><strong>Background color </strong><input type="color" id="backgroundColor" value="#000000"/></div>
+                <div class="col-sm-12 col-md-4 top-buffer"><strong>Font color </strong><input type="color" id="fontColor" value="#ffffff" /></div> -->
+                <div class="col-sm-12 col-md-12 top-buffer text">
+                  <strong>Font size </strong>
+                  <select class="selectpicker" id="fontSize">
+                  <option value="18">18</option>
+                  <option value="20">20</option>
+                  <option value="22">22</option>
+                  <option value="24">24</option>
+                  <option value="26">26</option>
+                  <option value="28">28</option>
+                  <option value="30">30</option>
+                </select>
+                </div>
+    </div>
+    </div>   
+</body>
+</html>
