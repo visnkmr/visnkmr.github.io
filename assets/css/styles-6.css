@@ -163,8 +163,8 @@ p {
   font-weight: 500;
   color: #2e4049;
   position: relative;
-  margin-top: 0;
-  margin-bottom: 20px;
+  /*margin-top: 0;*/
+  /*margin-bottom: 20px;*/
 }
 .main-wrapper .section-title .fa {
   width: 30px;
@@ -188,7 +188,7 @@ p {
   top: -2px;
 }
 .main-wrapper .section {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 .main-wrapper .experiences-section .item {
   margin-bottom: 30px;
@@ -222,7 +222,7 @@ p {
   margin-bottom: 5px;
 }
 .main-wrapper .projects-section .intro {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
@@ -280,7 +280,7 @@ p {
   .skillset .level-title {
     display: inline-block;
     float: left;
-    width: 30%;
+    /*width: 30%;*/
     margin-bottom: 0;
   }
   .skillset .level-bar {
