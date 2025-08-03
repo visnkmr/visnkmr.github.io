@@ -1,0 +1,20 @@
+name: Mirror to codeberg
+on:
+  push:
+      
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3.3.0
+      - name: Mirror to Codeberg
+        run: |
+          git config --global user.email "12533753+visnkmr@users.noreply.github.com"
+          git config --global user.name "fromghrunner"
+          git config --global init.defaultBranch main 
+          rm -rf .git/
+          git init
+          git add .
+          git commit -m "based on latest release on https://github.com/visnkmr/homepagev2"
+          git push -f https://visnk:${{secrets.CBERG_TOKEN}}@codeberg.org/visnk/pages.git main
