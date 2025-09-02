@@ -1,0 +1,5 @@
+google.com, pub-5000643977669652, DIRECT, f088c47fec942fa0
+facebook.com, 981203615623872, RESELLER, c3e20eee3f780d68
+facebook.com, 260099368778236, DIRECT, c3e20eee3f780d68
+#Appodeal
+appodeal.com, 41145, DIRECT
